@@ -111,10 +111,50 @@ console.log(x);
 
 // assignment operators
 
-let x2 = 3;
+let xz = 3;
 let y = 4;
-x2 += y;
-console.log(x2);
+xz += y;
+
+
+console.log(xz);
+console.log(y);
+
+xz -= y;
+
+// comparison operators
+let a = "30";
+let c = 30;
+
+// loose equality
+console.log(a == c);
+
+
+// strict equality
+console.log(a === c);
+
+// not equal
+console.log(a != c);
+
+// not equal value or not equal type
+console.log(a !== c);
+
+// greater than or equal to
+console.log(a >= c);
+
+
+// greater than
+console.log(a > c);
+
+// operator precedence
+console.log(23 - 50 * 3 **3)
+
+console.log((23 - 50) * 3 ** 3);
+
+// class work
+
+console.log((4 + 5 + 6)/3);
+
+// console.log(15 / 3);
 
 
 
