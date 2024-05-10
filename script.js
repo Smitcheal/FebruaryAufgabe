@@ -109,6 +109,14 @@ console.log(x--)
 console.log(x);
 
 
+// assignment operators
+
+let x2 = 3;
+let y = 4;
+x2 += y;
+console.log(x2);
+
+
 
 
 
